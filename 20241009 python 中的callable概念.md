@@ -71,4 +71,5 @@ stu = Stu('小明')
 print(callable(stu))    # True
 stu()                   # 小明 is running
 ~~~
+
 当你执行stu()时，与调用一个函数有着完全一致的体验，如果不告诉你stu是一个类的实例对象，你还以为stu就是一个函数。
